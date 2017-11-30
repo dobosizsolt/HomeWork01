@@ -1,22 +1,22 @@
 public class Main {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-	/**Téglalap kerület, terület számítás.
-     *
-     * Deklaráltam két int típusú változót,
-	 * a kerület és terület számítás alapján elvégeztem a műveleteket,
-     * a kapott értékekkel inicializáltam a resultCircumference és resultArea változókat,
-     * amiket kiírattam konzolra*/
+		/**Téglalap kerület, terület számítás.
+		 *
+		 * Deklaráltam két int típusú változót,
+		 * a kerület és terület számítás alapján elvégeztem a műveleteket,
+		 * a kapott értékekkel inicializáltam a resultCircumference és resultArea változókat,
+		 * amiket kiírattam konzolra*/
 
-	    int a = 5;
-	    int b = 9;
-	    int resultCircumference = 2*a + 2*b;
-	    int resultArea = a * b;
+		int a = 5;
+		int b = 9;
+		int resultCircumference = 2 * a + 2 * b;
+		int resultArea = a * b;
 
-	    System.out.println("A téglalap kerülete: " + resultCircumference + " cm");
+		System.out.println("A téglalap kerülete: " + resultCircumference + " cm");
 
-	    System.out.println("A téglalap területe: " + resultArea + " cm^2" );
+		System.out.println("A téglalap területe: " + resultArea + " cm^2");
 
 
 		/**Űrtartalom átváltás.
@@ -72,5 +72,20 @@ public class Main {
 		System.out.println("\nOutput:\n");
 		System.out.println(tempInCelsius + " celsius = " + FahrenheitTemp + " fahrenheit");
 		System.out.println(tempInFahrenheit + " fahrenheit = " + CelsiusTemp + " celsius");
-    }
+
+
+		/**Egy üdvözlet keretbe foglalva.
+		 * A "Hello world in a frame" üdvözlő szöveget '*' -gal határolt
+		 * keretbe írattam ki konzolra escape sequence segítségével.
+		 * minden \n -nél új sorba írtam külön stringekbe a jobb átláthatóság végett.
+		 * A stringeket konkatenáltam. */
+
+		System.out.println("\n*************\n" +
+				"* Hello\t\t*\n" +
+				"* world\t\t*\n" +
+				"* in\t\t*\n" +
+				"* a\t\t\t*\n" +
+				"* frame\t\t*\n" +
+				"*************");
+	}
 }
