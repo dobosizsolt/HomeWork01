@@ -5,8 +5,8 @@ public class Main {
 	/**Téglalap kerület, terület számítás.
      *
      * Deklaráltam két int típusú változót,
-	 * a kerület és terület számítás alapján elvégeztem a műveletet,
-     * a kapott értékkel inicializáltam a resultKer és resultTer változókat,
+	 * a kerület és terület számítás alapján elvégeztem a műveleteket,
+     * a kapott értékekkel inicializáltam a resultCircumference és resultArea változókat,
      * amiket kiírattam konzolra*/
 
 	    int a = 5;
