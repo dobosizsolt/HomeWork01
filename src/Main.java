@@ -18,5 +18,26 @@ public class Main {
 
 	    System.out.println("A téglalap területe: " + resultArea + " cm^2" );
 
+
+		/**Űrtartalom átváltás.
+		 *
+		 *Deklaráltam egy float típusú változót,
+		 * az átváltási szabálynak megfelelően elvégeztem a műveleteket,
+		 * a kapott értékekkel inicializáltam a resultMilliliter, resultCentiliter,
+		 * resultLiter és resultHektoliter változókat,
+		 * amiket kiírattam konzolra.*/
+
+		float dl = 60.5f;
+		float resultMilliliter = dl * 100;
+		float resultCentiliter = dl * 10;
+		float resultLiter = dl / 10;
+		float resultHektoliter = dl / 1000;
+
+		System.out.println("\nOutput:\n ");
+		System.out.println(dl + " dl = " + resultMilliliter + " ml");
+		System.out.println(dl + " dl = " + resultCentiliter + " cl");
+		System.out.println(dl + " dl = " + resultLiter + " l");
+		System.out.println(dl + " dl = " + resultHektoliter + " hl");
+
     }
 }
