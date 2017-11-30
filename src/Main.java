@@ -87,5 +87,17 @@ public class Main {
 				"* a\t\t\t*\n" +
 				"* frame\t\t*\n" +
 				"*************");
+
+
+		/**Egy karakter ASCII kódjának kiíratása.
+		 *
+		 * Deklaráltam egy char típusú és egy int típusú változót,
+		 * majd kiírattam konzolra.*/
+
+		char charInAscii = 'é';
+		int charValue = 130;
+
+		System.out.println("\nOutput:\n");
+		System.out.println("Az \'" + charInAscii + "\' karakter ASCII kódja: " + charValue );
 	}
 }
