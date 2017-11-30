@@ -39,5 +39,20 @@ public class Main {
 		System.out.println(dl + " dl = " + resultLiter + " l");
 		System.out.println(dl + " dl = " + resultHektoliter + " hl");
 
+
+		/**Gömb térfogat számítás.
+		 *
+		 *Deklaráltam egy int típusú változót,
+		 * a gömb térfogatszámítás szabálya szerint elvégeztem a műveletet,
+		 * a kapott értékkel inicializáltam a sphereVolume változót,
+		 * amit kiírattam konzolra.*/
+
+		int radius = 9;
+		final double PI = 3.14;
+		double sphereVolume = 4 * radius * radius * radius * PI / 3;
+
+		System.out.println("\nOutput: \n");
+		System.out.println("A " + radius + " egységnyi sugarú gömb térfogata = " + sphereVolume + " egység.");
+
     }
 }
