@@ -54,5 +54,23 @@ public class Main {
 		System.out.println("\nOutput: \n");
 		System.out.println("A " + radius + " egységnyi sugarú gömb térfogata = " + sphereVolume + " egység.");
 
+
+		/**Celsius -- fahrenheit átváltás.
+		 *
+		 *Deklaráltam két int típusú változót és két konstanst,
+		 * az átváltási szabálynak megfelelően elvégeztem a műveletet,
+		 * a kapott értékekkel inicializáltam a FahrenheitTemp és CelsiusTemp változókat,
+		 * amit kiírattam konzolra.*/
+
+		int tempInCelsius = 48;
+		int tempInFahrenheit = 121;
+		final int BASE = 32;
+		final double CONVERSATION_FACTOR = 9.0 / 5.0;
+		double FahrenheitTemp = tempInCelsius * CONVERSATION_FACTOR + BASE;
+		double CelsiusTemp = (tempInFahrenheit - BASE) / CONVERSATION_FACTOR;
+
+		System.out.println("\nOutput:\n");
+		System.out.println(tempInCelsius + " celsius = " + FahrenheitTemp + " fahrenheit");
+		System.out.println(tempInFahrenheit + " fahrenheit = " + CelsiusTemp + " celsius");
     }
 }
